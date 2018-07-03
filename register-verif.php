@@ -27,7 +27,7 @@ $Requete = "Insert into users (username , password,email) values ('$username' ,'
 $result = $conn->query($Requete);
                 if ($result) {
                     echo "vous etes bien enresitrer";
-                    echo "<a href=\"login.php\">se connecter </a>";
+                    echo "<br><a href=\"login.php\">se connecter </a>";
                 }
                 else
                 {
